@@ -1,0 +1,71 @@
+/*
+ * #f0f7f4 - white
+ * #7e8d85 - grey
+ * #3c493f - dark grey
+ *
+ */
+
+body {
+	background-color: #7e8d85;
+	font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+#main-header {
+	background-color: #7e8d85;
+	color: #f0f7f4;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#main-header > h1 {
+	font-size: 12em;
+	margin: 0;
+	margin-top: .2em;
+}
+
+#main-header > small {
+	font-size: 1.5em;
+}
+
+#topics h1 {
+	font-size: 2em;
+	color: #3c493f;
+	margin: 0;
+}
+
+#topics {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	line-height: 1.5em;
+	background-color: #f0f7f4;
+	border-radius: .3em;
+}
+
+#topics > section {
+	padding-top: 1.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#topics > section:last-child {
+	padding-bottom: 1.5em;
+}
+
+@media(max-width: 700px) {
+	#topics {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#main-header {
+		font-size: 0.75em;
+	}
+}
+
+body > section > footer {
+	text-align: center;
+	color: #f0f7f4;
+}
