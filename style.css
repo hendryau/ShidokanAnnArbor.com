@@ -30,8 +30,8 @@ body {
 }
 
 #topics {
-	margin-left: 1em;
-	margin-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #topics h1 {
@@ -56,17 +56,26 @@ body {
     padding-bottom: 1.5em;
 }
 
+body > section > footer {
+    text-align: center;
+    color: #f0f7f4;
+}
+
+footer .fa {
+    color: #f0f7f4;
+    width: 10%;
+    padding-top: .5em;
+}
+
 @media(min-width: 768px) {
     #topics {
         margin-left: 25%;
         margin-right: 25%;
     }
     #main-header >h1 {
-    	font-size: 12em;
+        font-size: 12em;
     }
-}
-
-body > section > footer {
-    text-align: center;
-    color: #f0f7f4;
+    footer .fa {
+        width: 5%;
+    }
 }
